@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.masonry-column {
+    flex: 3;
+    margin-right: 20px; 
+    break-inside: avoid; 
+    width: calc(50px - 20px); 
+    display: flex;
+    flex-direction: column;
+}
+.small-image {
+    width: 300px;
+    height: auto;
+}
+
+.masonry-item {
+    margin-bottom: 10px; 
+    background-color: #f0f0f0; 
+    overflow: hidden; 
+    max-width: 100px;
+    height: auto;
+    display: block;
+}
+ @media (max-width: 768px) {
+    .photo-gallery {
+      flex-direction: column;
+    }
+  }
+
+  
+  
+  
+  
+  
+  
