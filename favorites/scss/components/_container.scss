@@ -1,0 +1,6 @@
+@use '../abstracts/' as a;
+
+.favorites-table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
