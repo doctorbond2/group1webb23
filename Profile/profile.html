@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="Styles/profile.css" />
+    <script src="./script.js" ;></script>
+  </head>
+  <body>
+    <form action="">
+      <div class="item1">
+        <label for="displayName">Display Name</label><br />
+        <input type="text" id="displayName" name="displayName" />
+      </div>
+      <div class="item2">
+        <label for="usrname">Username</label><br />
+        <input type="text" id="usrname" name="usrname" />
+      </div>
+      <div class="item3">
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" />
+      </div>
+      <div class="item4">
+        <label for="age">Age</label><br />
+        <input type="number" id="age" name="age" />
+      </div>
+      <div class="item5">
+        <label for="aboutme">About Me</label><br />
+        <textarea
+          id="aboutMe"
+          name="aboutme"
+          placeholder="Write something interesting"
+        ></textarea>
+      </div>
+
+      <!-- USER GETS TO TYPE THEIR GENDER IF NOT LISTED -->
+      <div class="item6">
+        <label for="gender">Gender</label><br />
+        <select name="gender" id="gender" onchange="toggleInput()">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <div id="inputContainer"></div>
+      </div>
+      <div class="item7">
+        <input id="submit" type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
