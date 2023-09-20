@@ -8,18 +8,55 @@
     <link rel="stylesheet" href="Styles/profile.css" />
     <script src="./script.js" ;></script>
   </head>
-  <header class="header">
-    <h1>
-      <a href="index.html"
-        ><img src="./Styles/svg/logo.svg" alt="PostagramLogo"
-      /></a>
-    </h1>
-    <a href="../explorer/index.html"
-      ><img src="./Styles/svg/add.svg" alt="addButton"
-    /></a>
-  </header>
   <body>
+    <header class="header">
+      <h1>
+        <a href="index.html"
+          ><img src="./Styles/svg/logo.svg" alt="PostagramLogo"
+        /></a>
+      </h1>
+      <a href="../explorer/index.html"
+        ><img src="./Styles/svg/add.svg" alt="addButton"
+      /></a>
+    </header>
+
+    <div class="sidebar">
+      <div>
+        <a href="index.html"
+          ><img src="./Styles/svg/logo.svg" alt="PostagramLogo"
+        /></a>
+      </div>
+
+      <div>
+        <a href=""
+          ><img src="./Styles/svg/home.svg" alt="" />
+          <p>Home</p></a
+        >
+      </div>
+      <div>
+        <a href=""
+          ><img src="./Styles/svg/search.svg" alt="" />
+          <p>Explore</p></a
+        >
+      </div>
+      <div>
+        <a href=""
+          ><img src="./Styles/svg/heart.svg" alt="" />
+          <p>Favorites</p></a
+        >
+      </div>
+      <div>
+        <a href=""
+          ><img class="profilePic" src="./Styles/svg/profilepic.jpg" alt="" />
+          <p>My profile</p
+        ></a>
+      </div>
+    </div>
+
     <form action="">
+      <div class="myX">
+        <h2>My profile</h2>
+      </div>
       <div class="item1">
         <label for="displayName">Display Name</label><br />
         <input type="text" id="displayName" name="displayName" />
@@ -44,7 +81,6 @@
           placeholder="Write something interesting"
         ></textarea>
       </div>
-
       <!-- USER GETS TO TYPE THEIR GENDER IF NOT LISTED -->
       <div class="item6">
         <label for="gender">Gender</label><br />
@@ -59,20 +95,22 @@
         <input id="submit" type="submit" value="Submit" />
       </div>
     </form>
-    
-        <footer class="footer">
-          <div>
-            <img src="./Styles/svg/home.svg" alt="" />
-          </div>
-          <div>
-            <img src="./Styles/svg/search.svg" alt="" />
-          </div>
-          <div>
-            <img src="./Styles/svg/heart.svg" alt="" />
-          </div>
-          <div>
-            <img id="profilepic" src="./Styles/svg/profilepic.jpg" alt="" />
-          </div>
-        </footer>
+
+    <footer class="footer">
+      <div>
+        <a href=""><img src="./Styles/svg/home.svg" alt="" /></a>
+      </div>
+      <div>
+        <a href=""><img src="./Styles/svg/search.svg" alt="" /></a>
+      </div>
+      <div>
+        <a href=""><img src="./Styles/svg/heart.svg" alt="" /></a>
+      </div>
+      <div>
+        <a href=""
+          ><img class="profilePic" src="./Styles/svg/profilepic.jpg" alt=""
+        /></a>
+      </div>
+    </footer>
   </body>
 </html>
