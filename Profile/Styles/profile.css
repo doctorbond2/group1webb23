@@ -4,9 +4,31 @@
   box-sizing: border-box;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 2px solid darkgray;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer #profilepic {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
 body {
+  display: flex;
   background: white;
   font-size: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 body form {
   display: flex;
@@ -39,8 +61,9 @@ body form #gender {
   background: whitesmoke;
 }
 body form #submit {
-  background: darkolivegreen;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  will-change_: transform;
+  background: rgb(130, 166, 67);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 50px;
   color: whitesmoke;
   font-size: 1.3rem;
