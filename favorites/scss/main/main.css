@@ -1,6 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap");
+.age, .posts, .likes {
+  display: none;
+}
+
+.table-wrapper {
+  width: 100vw;
+  height: 500px;
+  margin-top: 2rem;
+}
+
 .favorites-table {
-  border-collapse: collapse;
-  border: 2px solid black;
+  border-spacing: 0;
+  margin: 25px 0;
+  font-size: 0.9em;
+  width: 100vw;
+}
+.favorites-table th {
+  border-bottom: 1px solid black;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 0.3em;
+}
+.favorites-table td {
+  padding: 1.3em;
+  text-align: center;
+  border-bottom: 1px solid black;
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  border-bottom: 1px solid black;
+  padding: 2rem 0 0.2rem 12vw;
+  font-size: 1em;
+  margin-bottom: 3em;
+}
+
+.row-one .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.row-one .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/AI-Profile-Picture.jpeg");
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-two .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.row-two .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/jimmyai.jpeg");
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-three .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.row-three .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/koreanai.avif");
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
 }
 
 * {

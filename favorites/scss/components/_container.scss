@@ -1,6 +1,15 @@
 @use '../abstracts/' as a;
 
-.favorites-table {
-  border-collapse: collapse;
-  border: 2px solid black;
+
+@include a.table-mobile;
+
+
+.row-one {
+  @include a.profile-picture(url('/favorites/images/AI-Profile-Picture.jpeg'));
+}
+.row-two {
+  @include a.profile-picture(url('/favorites/images/jimmyai.jpeg'));
+}
+.row-three {
+  @include a.profile-picture(url('/favorites/images/koreanai.avif'));
 }
