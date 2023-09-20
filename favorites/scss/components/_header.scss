@@ -1,1 +1,8 @@
 @use '../abstracts/' as a;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 2px solid darkgray;
+  }
