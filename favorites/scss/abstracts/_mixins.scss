@@ -1,6 +1,70 @@
 @use 'fonts';
 
 @mixin table-laptop {
+
+  .desktop-footer {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 74px;
+    border-top: 1px solid lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    color: grey;
+    z-index: 0;
+
+    nav {
+      width: inherit;
+      display: inherit;
+      justify-content: right;
+      ul {
+        width: inherit;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+      }
+      li {
+        list-style: none;
+      }
+     #special-child {
+      padding-left: 10%;
+     }
+     #rest-of-class {
+      display: flex;
+      justify-content: space-around;
+      width: 25%;
+      gap: 20%;
+     }
+      
+    }
+  }
+
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+    margin-bottom: 5em;
+  }
+
+  body {
+    display: flex;
+    position: relative;
+    .sidebar {
+      left: 0;
+      font-family: 'Raleway', sans-serif;
+      border-right: 1px solid lightgrey;
+
+      a {
+        font-size: 1.1em;
+      }
+    }
+    main {
+      width: 80%;
+    }
+  }
   .age, .posts, .likes {
     display: table-cell;
   }
@@ -10,7 +74,8 @@
   .table-wrapper {
     width: 80%;
     height: 60%;
-    margin-top: 2rem;
+    margin-top: 5%;
+    margin-left: 30%;
   }
 }
 @mixin table-mobile {
@@ -40,7 +105,7 @@
       
     }
     td {
-      padding: 1.3em;
+      padding: 1em;
       text-align: center;
       border-bottom: 1px solid black;
       font-family: 'Open Sans', sans-serif;
@@ -51,10 +116,9 @@
   }
   h2 {
     font-family: 'Raleway', sans-serif;
-    border-bottom: 1px solid black;
-    padding: 2rem 0 0.2rem 12vw;
-    font-size: 1em;
-    margin-bottom: 3em;
+    font-size: 1.6em;
+    margin-top: 3em;
+    margin-left: 1em;
   }
 
   .account {
@@ -79,8 +143,8 @@
       background-color: black;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 3em;
-      width: 3em;
+      height: 2.5em;
+      width: 2.5em;
       display: inline-block;
       border-radius: 50%;
     }

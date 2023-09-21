@@ -31,7 +31,7 @@
   padding-bottom: 0.3em;
 }
 .favorites-table td {
-  padding: 1.3em;
+  padding: 1em;
   text-align: center;
   border-bottom: 1px solid black;
   font-family: "Open Sans", sans-serif;
@@ -40,10 +40,9 @@
 
 h2 {
   font-family: "Raleway", sans-serif;
-  border-bottom: 1px solid black;
-  padding: 2rem 0 0.2rem 12vw;
-  font-size: 1em;
-  margin-bottom: 3em;
+  font-size: 1.6em;
+  margin-top: 3em;
+  margin-left: 1em;
 }
 
 .account {
@@ -64,8 +63,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -82,8 +81,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -100,8 +99,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -118,8 +117,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -136,8 +135,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -154,8 +153,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -172,8 +171,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -190,8 +189,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -208,8 +207,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -226,8 +225,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -244,8 +243,8 @@ h2 {
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 3em;
-  width: 3em;
+  height: 2.5em;
+  width: 2.5em;
   display: inline-block;
   border-radius: 50%;
 }
@@ -253,6 +252,11 @@ h2 {
 .footer {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  max-height: 5%;
+  align-items: center;
 }
 .footer .profilePic {
   width: 25px;
@@ -266,6 +270,17 @@ h2 {
   justify-content: space-between;
   padding: 5px;
   border-bottom: 2px solid darkgray;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  align-items: center;
+}
+.header a {
+  margin-right: 5%;
+}
+.header h1 {
+  margin-left: 8%;
 }
 
 @media (min-width: 320px) {
@@ -289,7 +304,7 @@ h2 {
     padding-bottom: 0.3em;
   }
   .favorites-table td {
-    padding: 1.3em;
+    padding: 1em;
     text-align: center;
     border-bottom: 1px solid black;
     font-family: "Open Sans", sans-serif;
@@ -297,10 +312,9 @@ h2 {
   }
   h2 {
     font-family: "Raleway", sans-serif;
-    border-bottom: 1px solid black;
-    padding: 2rem 0 0.2rem 12vw;
-    font-size: 1em;
-    margin-bottom: 3em;
+    font-size: 1.6em;
+    margin-top: 3em;
+    margin-left: 1em;
   }
   .account {
     text-align: left;
@@ -329,7 +343,7 @@ h2 {
     padding-bottom: 0.3em;
   }
   .favorites-table td {
-    padding: 1.3em;
+    padding: 1em;
     text-align: center;
     border-bottom: 1px solid black;
     font-family: "Open Sans", sans-serif;
@@ -337,10 +351,9 @@ h2 {
   }
   h2 {
     font-family: "Raleway", sans-serif;
-    border-bottom: 1px solid black;
-    padding: 2rem 0 0.2rem 12vw;
-    font-size: 1em;
-    margin-bottom: 3em;
+    font-size: 1.6em;
+    margin-top: 3em;
+    margin-left: 1em;
   }
   .account {
     text-align: left;
@@ -348,7 +361,7 @@ h2 {
     width: 20px;
   }
 }
-@media (min-width: 425px) {
+@media (min-width: 768px) {
   .age, .posts, .likes {
     display: none;
   }
@@ -369,7 +382,7 @@ h2 {
     padding-bottom: 0.3em;
   }
   .favorites-table td {
-    padding: 1.3em;
+    padding: 1em;
     text-align: center;
     border-bottom: 1px solid black;
     font-family: "Open Sans", sans-serif;
@@ -377,10 +390,9 @@ h2 {
   }
   h2 {
     font-family: "Raleway", sans-serif;
-    border-bottom: 1px solid black;
-    padding: 2rem 0 0.2rem 12vw;
-    font-size: 1em;
-    margin-bottom: 3em;
+    font-size: 1.6em;
+    margin-top: 3em;
+    margin-left: 1em;
   }
   .account {
     text-align: left;
@@ -388,7 +400,65 @@ h2 {
     width: 20px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
+  .desktop-footer {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 74px;
+    border-top: 1px solid lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    color: grey;
+    z-index: 0;
+  }
+  .desktop-footer nav {
+    width: inherit;
+    display: inherit;
+    justify-content: right;
+  }
+  .desktop-footer nav ul {
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  .desktop-footer nav li {
+    list-style: none;
+  }
+  .desktop-footer nav #special-child {
+    padding-left: 10%;
+  }
+  .desktop-footer nav #rest-of-class {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    gap: 20%;
+  }
+  h2 {
+    font-family: "Raleway", sans-serif;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+    margin-bottom: 5em;
+  }
+  body {
+    display: flex;
+    position: relative;
+  }
+  body .sidebar {
+    left: 0;
+    font-family: "Raleway", sans-serif;
+    border-right: 1px solid lightgrey;
+  }
+  body .sidebar a {
+    font-size: 1.1em;
+  }
+  body main {
+    width: 80%;
+  }
   .age, .posts, .likes {
     display: table-cell;
   }
@@ -398,10 +468,9 @@ h2 {
   .table-wrapper {
     width: 80%;
     height: 60%;
-    margin-top: 2rem;
+    margin-top: 5%;
+    margin-left: 30%;
   }
-}
-@media screen and (min-width: 1200px) {
   .header {
     display: none;
   }
@@ -412,8 +481,10 @@ h2 {
     position: fixed;
     display: flex;
     height: 100vh;
-    width: 100%;
+    width: 12rem;
     flex-direction: column;
+    background-color: white;
+    z-index: 10;
   }
   .sidebar .profilePic {
     width: 25px;
@@ -427,9 +498,12 @@ h2 {
     color: black;
     font-size: 1.5rem;
     margin-top: 2.5rem;
-    margin-left: 1rem;
+    margin-left: 15%;
   }
   .sidebar a p {
     margin-left: 1rem;
+  }
+  .sidebar a p p:hover {
+    text-decoration: underline;
   }
 }/*# sourceMappingURL=main.css.map */

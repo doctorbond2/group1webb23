@@ -3,6 +3,11 @@
 .footer {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    max-height: 5%;
+    align-items: center;
     .profilePic {
       width: 25px;
       height: 25px;
@@ -10,3 +15,6 @@
       border: 1px solid black;
     }
   }
+
+ 
+  
