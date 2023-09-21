@@ -8,10 +8,9 @@
     width: 100%;
   }
   .table-wrapper {
-    width: 909px;
-    height: 770px;
+    width: 80%;
+    height: 60%;
     margin-top: 2rem;
-    border: 3px green solid;
   }
 }
 @mixin table-mobile {
@@ -20,17 +19,17 @@
     display: none;
   }
 
+
   .table-wrapper {
     width: 100vw;
     height: 1357px;
     margin-top: 2rem;
-    border: 3px green solid;
   }
   
   .favorites-table {
     border-spacing: 0;
     margin: 25px 0;
-    font-size: 0.9em;
+    font-size: 1em;
     width: 100vw;
 
 
@@ -38,7 +37,6 @@
       border-bottom: 1px solid black;
       font-family: 'Raleway', sans-serif;
       padding-bottom: 0.3em;
-      max-width: 10vw;
       
     }
     td {
@@ -46,11 +44,10 @@
       text-align: center;
       border-bottom: 1px solid black;
       font-family: 'Open Sans', sans-serif;
-      font-weight: bold;
+      font-weight:500;
     }
-    .account {
-      padding-right: 10%;
-    }
+
+
   }
   h2 {
     font-family: 'Raleway', sans-serif;
@@ -60,6 +57,12 @@
     margin-bottom: 3em;
   }
 
+  .account {
+    text-align: left;
+    padding-left: 2%;
+    width: 20px;
+  }
+
 }
 
 @mixin profile-picture($url) {
@@ -67,14 +70,14 @@
   .table-picture {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 0.5em;
     
     &::before {
       content: '';
       background-image: $url;
       background-color: black;
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       height: 3em;
       width: 3em;
@@ -83,4 +86,5 @@
     }
   }
 }
+
 
