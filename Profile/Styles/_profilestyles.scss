@@ -10,6 +10,12 @@
   font-size: 1.5rem;
   background: whitesmoke;
 }
+label {
+  font-family: 'Open Sans';
+}
+p, h2 {
+ font-family: 'Raleway';
+}
 .header {
   display: flex;
   justify-content: space-between;
