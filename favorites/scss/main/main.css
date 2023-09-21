@@ -13,30 +13,25 @@
   width: 100vw;
   height: 1357px;
   margin-top: 2rem;
-  border: 3px green solid;
 }
 
 .favorites-table {
   border-spacing: 0;
   margin: 25px 0;
-  font-size: 0.9em;
+  font-size: 1em;
   width: 100vw;
 }
 .favorites-table th {
   border-bottom: 1px solid black;
   font-family: "Raleway", sans-serif;
   padding-bottom: 0.3em;
-  max-width: 10vw;
 }
 .favorites-table td {
   padding: 1.3em;
   text-align: center;
   border-bottom: 1px solid black;
   font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-}
-.favorites-table .account {
-  padding-right: 10%;
+  font-weight: 500;
 }
 
 h2 {
@@ -47,17 +42,23 @@ h2 {
   margin-bottom: 3em;
 }
 
+.account {
+  text-align: left;
+  padding-left: 2%;
+  width: 20px;
+}
+
 .row-one .table-picture {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 0.5em;
 }
 .row-one .table-picture::before {
   content: "";
   background-image: url("/favorites/images/AI-Profile-Picture.jpeg");
   background-color: black;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 3em;
   width: 3em;
@@ -68,14 +69,14 @@ h2 {
 .row-two .table-picture {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 0.5em;
 }
 .row-two .table-picture::before {
   content: "";
   background-image: url("/favorites/images/jimmyai.jpeg");
   background-color: black;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 3em;
   width: 3em;
@@ -86,14 +87,158 @@ h2 {
 .row-three .table-picture {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 0.5em;
 }
 .row-three .table-picture::before {
   content: "";
-  background-image: url("/favorites/images/koreanai.avif");
+  background-image: url("/favorites/images/koreanai.jpeg");
   background-color: black;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-four .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5em;
+}
+.row-four .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/foto4.jpeg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-five .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5em;
+}
+.row-five .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/foto5.jpeg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-six .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5em;
+}
+.row-six .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/foto6.jpeg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-seven .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5em;
+}
+.row-seven .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/foto7.jpeg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-eight .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5em;
+}
+.row-eight .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/foto8.jpeg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-nine .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5em;
+}
+.row-nine .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/foto9.jpeg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-ten .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5em;
+}
+.row-ten .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/foto10.jpg");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 3em;
+  width: 3em;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.row-eleven .table-picture {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5em;
+}
+.row-eleven .table-picture::before {
+  content: "";
+  background-image: url("/favorites/images/koreanai.jpeg");
+  background-color: black;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 3em;
   width: 3em;
@@ -109,29 +254,24 @@ h2 {
     width: 100vw;
     height: 1357px;
     margin-top: 2rem;
-    border: 3px green solid;
   }
   .favorites-table {
     border-spacing: 0;
     margin: 25px 0;
-    font-size: 0.9em;
+    font-size: 1em;
     width: 100vw;
   }
   .favorites-table th {
     border-bottom: 1px solid black;
     font-family: "Raleway", sans-serif;
     padding-bottom: 0.3em;
-    max-width: 10vw;
   }
   .favorites-table td {
     padding: 1.3em;
     text-align: center;
     border-bottom: 1px solid black;
     font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-  }
-  .favorites-table .account {
-    padding-right: 10%;
+    font-weight: 500;
   }
   h2 {
     font-family: "Raleway", sans-serif;
@@ -139,6 +279,11 @@ h2 {
     padding: 2rem 0 0.2rem 12vw;
     font-size: 1em;
     margin-bottom: 3em;
+  }
+  .account {
+    text-align: left;
+    padding-left: 2%;
+    width: 20px;
   }
 }
 @media (min-width: 375px) {
@@ -149,29 +294,24 @@ h2 {
     width: 100vw;
     height: 1357px;
     margin-top: 2rem;
-    border: 3px green solid;
   }
   .favorites-table {
     border-spacing: 0;
     margin: 25px 0;
-    font-size: 0.9em;
+    font-size: 1em;
     width: 100vw;
   }
   .favorites-table th {
     border-bottom: 1px solid black;
     font-family: "Raleway", sans-serif;
     padding-bottom: 0.3em;
-    max-width: 10vw;
   }
   .favorites-table td {
     padding: 1.3em;
     text-align: center;
     border-bottom: 1px solid black;
     font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-  }
-  .favorites-table .account {
-    padding-right: 10%;
+    font-weight: 500;
   }
   h2 {
     font-family: "Raleway", sans-serif;
@@ -179,6 +319,11 @@ h2 {
     padding: 2rem 0 0.2rem 12vw;
     font-size: 1em;
     margin-bottom: 3em;
+  }
+  .account {
+    text-align: left;
+    padding-left: 2%;
+    width: 20px;
   }
 }
 @media (min-width: 425px) {
@@ -189,29 +334,24 @@ h2 {
     width: 100vw;
     height: 1357px;
     margin-top: 2rem;
-    border: 3px green solid;
   }
   .favorites-table {
     border-spacing: 0;
     margin: 25px 0;
-    font-size: 0.9em;
+    font-size: 1em;
     width: 100vw;
   }
   .favorites-table th {
     border-bottom: 1px solid black;
     font-family: "Raleway", sans-serif;
     padding-bottom: 0.3em;
-    max-width: 10vw;
   }
   .favorites-table td {
     padding: 1.3em;
     text-align: center;
     border-bottom: 1px solid black;
     font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-  }
-  .favorites-table .account {
-    padding-right: 10%;
+    font-weight: 500;
   }
   h2 {
     font-family: "Raleway", sans-serif;
@@ -219,6 +359,11 @@ h2 {
     padding: 2rem 0 0.2rem 12vw;
     font-size: 1em;
     margin-bottom: 3em;
+  }
+  .account {
+    text-align: left;
+    padding-left: 2%;
+    width: 20px;
   }
 }
 @media (min-width: 768px) {
@@ -229,9 +374,8 @@ h2 {
     width: 100%;
   }
   .table-wrapper {
-    width: 909px;
-    height: 770px;
+    width: 80%;
+    height: 60%;
     margin-top: 2rem;
-    border: 3px green solid;
   }
 }/*# sourceMappingURL=main.css.map */
