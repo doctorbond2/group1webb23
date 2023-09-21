@@ -1,0 +1,29 @@
+@use '../abstracts/' as a;
+
+@media (min-width: a.$mobile-s) {
+  @include a.table-mobile;
+}
+
+@media (min-width: a.$mobile-m) {
+  @include a.table-mobile;
+}
+
+@media (min-width: a.$mobile-l) {
+  @include a.table-mobile;
+}
+
+@media (min-width: a.$tablet) {
+  @include a.table-laptop;
+}
+
+@media (min-width: a.$laptop) {
+  
+}
+
+@media (min-width: a.$laptop-l ) {
+  
+}
+
+@media (min-width: a.$laptop-xl) {
+  
+}

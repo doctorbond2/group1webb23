@@ -1,0 +1,86 @@
+@use 'fonts';
+
+@mixin table-laptop {
+  .age, .posts, .likes {
+    display: table-cell;
+  }
+  .favorites-table {
+    width: 100%;
+  }
+  .table-wrapper {
+    width: 909px;
+    height: 770px;
+    margin-top: 2rem;
+    border: 3px green solid;
+  }
+}
+@mixin table-mobile {
+
+  .age, .posts, .likes {
+    display: none;
+  }
+
+  .table-wrapper {
+    width: 100vw;
+    height: 1357px;
+    margin-top: 2rem;
+    border: 3px green solid;
+  }
+  
+  .favorites-table {
+    border-spacing: 0;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100vw;
+
+
+    th {
+      border-bottom: 1px solid black;
+      font-family: 'Raleway', sans-serif;
+      padding-bottom: 0.3em;
+      max-width: 10vw;
+      
+    }
+    td {
+      padding: 1.3em;
+      text-align: center;
+      border-bottom: 1px solid black;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+    .account {
+      padding-right: 10%;
+    }
+  }
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid black;
+    padding: 2rem 0 0.2rem 12vw;
+    font-size: 1em;
+    margin-bottom: 3em;
+  }
+
+}
+
+@mixin profile-picture($url) {
+  
+  .table-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    
+    &::before {
+      content: '';
+      background-image: $url;
+      background-color: black;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 3em;
+      width: 3em;
+      display: inline-block;
+      border-radius: 50%;
+    }
+  }
+}
+
