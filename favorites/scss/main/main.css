@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.sidebar {
+  display: none;
+}
+
 .age, .posts, .likes {
   display: none;
 }
@@ -246,6 +250,24 @@ h2 {
   border-radius: 50%;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer .profilePic {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 2px solid darkgray;
+}
+
 @media (min-width: 320px) {
   .age, .posts, .likes {
     display: none;
@@ -377,5 +399,37 @@ h2 {
     width: 80%;
     height: 60%;
     margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .sidebar {
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  .sidebar .profilePic {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid black;
+  }
+  .sidebar a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+  }
+  .sidebar a p {
+    margin-left: 1rem;
   }
 }/*# sourceMappingURL=main.css.map */

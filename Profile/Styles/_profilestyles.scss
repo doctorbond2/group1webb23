@@ -92,8 +92,9 @@ body {
     position: fixed;
     display: flex;
     height: 100vh;
-    width: 100%;
+    width: 190px;
     flex-direction: column;
+    border-right: 1px solid lightgray;
     .profilePic {
       width: 25px;
       height: 25px;
@@ -115,11 +116,12 @@ body {
     }
   }
 
-  body {
+  main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
     form {
       margin-top: -8rem;
       display: grid;
@@ -160,10 +162,10 @@ body {
     }
   }
 }
-@media screen and (min-width: 1500px) {
-  body {
-    form {
-      transform: scale(1.2);
-    }
-  }
-}
+// @media screen and (min-width: 1500px) {
+//   body {
+//     form {
+//       transform: scale(1.2);
+//     }
+//   }
+// }

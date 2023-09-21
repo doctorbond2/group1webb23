@@ -48,53 +48,55 @@
       <div>
         <a href=""
           ><img class="profilePic" src="./Styles/svg/profilepic.jpg" alt="" />
-          <p>My profile</p
-        ></a>
+          <p>My profile</p></a
+        >
       </div>
     </div>
 
-    <form action="#">
-      <div class="myX">
-        <h2>My profile</h2>
-      </div>
-      <div class="item1">
-        <label for="displayName">Display Name</label><br />
-        <input type="text" id="displayName" name="displayName" />
-      </div>
-      <div class="item2">
-        <label for="usrname">Username</label><br />
-        <input type="text" id="usrname" name="usrname" />
-      </div>
-      <div class="item3">
-        <label for="email">Email</label><br />
-        <input type="email" id="email" name="email" />
-      </div>
-      <div class="item4">
-        <label for="age">Age</label><br />
-        <input type="number" id="age" name="age" />
-      </div>
-      <div class="item5">
-        <label for="aboutme">About Me</label><br />
-        <textarea
-          id="aboutme"
-          name="aboutme"
-          placeholder="Write something interesting"
-        ></textarea>
-      </div>
-      <!-- USER GETS TO TYPE THEIR GENDER IF NOT LISTED -->
-      <div class="item6">
-        <label for="gender">Gender</label><br />
-        <select name="gender" id="gender" onchange="toggleInput()">
-          <option value="Male">Male</option>
-          <option value="Female">Female</option>
-          <option value="Other">Other</option>
-        </select>
-        <div id="inputContainer"></div>
-      </div>
-      <div class="item7">
-        <input id="submit" type="submit" value="Submit" />
-      </div>
-    </form>
+    <main>
+      <form action="#">
+        <div class="myX">
+          <h2>My profile</h2>
+        </div>
+        <div class="item1">
+          <label for="displayName">Display Name</label><br />
+          <input type="text" id="displayName" name="displayName" />
+        </div>
+        <div class="item2">
+          <label for="usrname">Username</label><br />
+          <input type="text" id="usrname" name="usrname" />
+        </div>
+        <div class="item3">
+          <label for="email">Email</label><br />
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="item4">
+          <label for="age">Age</label><br />
+          <input type="number" id="age" name="age" />
+        </div>
+        <div class="item5">
+          <label for="aboutMe">About Me</label><br />
+          <textarea
+            id="aboutMe"
+            name="aboutMe"
+            placeholder="Write something interesting"
+          ></textarea>
+        </div>
+        <!-- USER GETS TO TYPE THEIR GENDER IF NOT LISTED -->
+        <div class="item6">
+          <label for="gender">Gender</label><br />
+          <select name="gender" id="gender" onchange="toggleInput()">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+          <div id="inputContainer"></div>
+        </div>
+        <div class="item7">
+          <input id="submit" type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
 
     <footer class="footer">
       <div>

@@ -27,3 +27,37 @@
 @media (min-width: a.$laptop-xl) {
   
 }
+
+@media screen and (min-width: 1200px) {
+    .header {
+      display: none;
+    }
+    .footer {
+      display: none;
+    }
+    .sidebar {
+      position: fixed;
+      display: flex;
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      .profilePic {
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+        border: 1px solid black;
+      }
+      a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+  
+  
+        p {
+          margin-left: 1rem;
+        }
+      }
+    }}
