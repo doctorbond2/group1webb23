@@ -79,11 +79,15 @@ nav a {
 
 .post-footer {
     display: flex;
-    flex-direction: center;
     justify-content: space-between;
     margin-top: 20px;
     font-size: 14px;
     align-items: center;
+
+    
+}
+.post-footer div {
+    margin-left: 20rem;
 }
 
 .post-footer a {
