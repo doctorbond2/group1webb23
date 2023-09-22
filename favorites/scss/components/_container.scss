@@ -1,6 +1,7 @@
 @use '../abstracts/' as a;
 
 
+
 @include a.table-mobile;
 
 
@@ -11,5 +12,29 @@
   @include a.profile-picture(url('/favorites/images/jimmyai.jpeg'));
 }
 .row-three {
-  @include a.profile-picture(url('/favorites/images/koreanai.avif'));
+  @include a.profile-picture(url('/favorites/images/koreanai.jpeg'));
+}
+.row-four {
+  @include a.profile-picture(url('/favorites/images/foto4.jpeg'));
+}
+.row-five {
+  @include a.profile-picture(url('/favorites/images/foto5.jpeg'));
+}
+.row-six {
+  @include a.profile-picture(url('/favorites/images/foto6.jpeg'));
+}
+.row-seven {
+  @include a.profile-picture(url('/favorites/images/foto7.jpeg'));
+}
+.row-eight {
+  @include a.profile-picture(url('/favorites/images/foto8.jpeg'));
+}
+.row-nine {
+  @include a.profile-picture(url('/favorites/images/foto9.jpeg'));
+}
+.row-ten {
+  @include a.profile-picture(url('/favorites/images/foto10.jpg'));
+}
+.row-eleven {
+  @include a.profile-picture(url('/favorites/images/koreanai.jpeg'));
 }
