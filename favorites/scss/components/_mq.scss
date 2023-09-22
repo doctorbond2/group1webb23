@@ -9,7 +9,7 @@
 }
 
 @media (min-width: a.$mobile-l) {
-  
+  @include a.table-mobile;
 }
 
 @media (min-width: a.$tablet) {
