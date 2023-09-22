@@ -89,3 +89,9 @@ nav a {
 .post-footer a {
   color: #0074d9;
 }
+.eclipse {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 50px;
+    width: 52px;
+}
