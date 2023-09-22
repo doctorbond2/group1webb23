@@ -82,6 +82,30 @@
   }
 }
 @mixin table-mobile {
+  .desktop-footer {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    max-height: 5%;
+    align-items: center;
+    position:fixed;
+    bottom: 0;
+    z-index: 4;
+    border-top: 1px solid lightgrey;
+    padding: 0.5em;
+    .profilePic {
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+      border: 1px solid black;
+    }
+  }
 
   .link {
 
@@ -91,7 +115,7 @@
       transform: scale(1);
       transition: 0.3s;
       display: inline-block;
-      
+
       &:visited {
         color: black;
       }
@@ -111,7 +135,7 @@
 
   .table-wrapper {
     width: 100vw;
-    height: 1357px;
+    height: 100%;
     margin-top: 2rem;
   }
   

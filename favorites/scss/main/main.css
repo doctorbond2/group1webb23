@@ -10,6 +10,31 @@
   display: none;
 }
 
+.desktop-footer {
+  display: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  max-height: 5%;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 4;
+  border-top: 1px solid lightgrey;
+  padding: 0.5em;
+}
+.footer .profilePic {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
 .link a {
   text-decoration: none;
   transform: scale(1);
@@ -29,7 +54,7 @@
 
 .table-wrapper {
   width: 100vw;
-  height: 1357px;
+  height: 100%;
   margin-top: 2rem;
 }
 
@@ -252,22 +277,6 @@ h2 {
   border-radius: 50%;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  max-width: 100%;
-  background-color: white;
-  max-height: 5%;
-  align-items: center;
-}
-.footer .profilePic {
-  width: 25px;
-  height: 25px;
-  border-radius: 100%;
-  border: 1px solid black;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -278,6 +287,7 @@ h2 {
   background-color: white;
   top: 0;
   align-items: center;
+  z-index: 5;
 }
 .header a {
   margin-right: 5%;
@@ -287,6 +297,29 @@ h2 {
 }
 
 @media (min-width: 320px) {
+  .desktop-footer {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    max-height: 5%;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    border-top: 1px solid lightgrey;
+    padding: 0.5em;
+  }
+  .footer .profilePic {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid black;
+  }
   .link a {
     text-decoration: none;
     transform: scale(1);
@@ -304,7 +337,7 @@ h2 {
   }
   .table-wrapper {
     width: 100vw;
-    height: 1357px;
+    height: 100%;
     margin-top: 2rem;
   }
   .favorites-table {
@@ -338,6 +371,29 @@ h2 {
   }
 }
 @media (min-width: 375px) {
+  .desktop-footer {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    max-height: 5%;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    border-top: 1px solid lightgrey;
+    padding: 0.5em;
+  }
+  .footer .profilePic {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid black;
+  }
   .link a {
     text-decoration: none;
     transform: scale(1);
@@ -355,7 +411,7 @@ h2 {
   }
   .table-wrapper {
     width: 100vw;
-    height: 1357px;
+    height: 100%;
     margin-top: 2rem;
   }
   .favorites-table {
@@ -389,6 +445,29 @@ h2 {
   }
 }
 @media (min-width: 768px) {
+  .desktop-footer {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    max-height: 5%;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    border-top: 1px solid lightgrey;
+    padding: 0.5em;
+  }
+  .footer .profilePic {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid black;
+  }
   .link a {
     text-decoration: none;
     transform: scale(1);
@@ -406,7 +485,7 @@ h2 {
   }
   .table-wrapper {
     width: 100vw;
-    height: 1357px;
+    height: 100%;
     margin-top: 2rem;
   }
   .favorites-table {
