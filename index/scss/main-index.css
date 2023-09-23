@@ -1,30 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap");
 @media (min-width: 320px) {
+  .innerbanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .innerbanner a {
+    text-decoration: none;
+    color: black;
+  }
+  .innerbanner a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .innerbanner .guy {
+    height: 2em;
+    border-radius: 50%;
+  }
+  .innerbanner .heart {
+    margin-right: 5%;
+    height: 1em;
+  }
+  .innerbanner p {
+    padding-left: 1em;
+    padding-top: 0.3em;
+    font-size: 0.7em;
+  }
+  .innerbanner .profile-box {
+    margin-left: 3%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  .innerbanner .profile-box .special {
+    color: lightgrey;
+  }
+  .innercard {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(61, 61, 61);
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin-bottom: 5%;
+  }
+  .innercard p {
+    padding: 0.5em 0 0 0.4em;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
   h2 {
     display: none;
   }
   .card {
-    width: 18em;
+    box-shadow: 3px 2px 2px 0 grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
     height: 24vh;
     background-image: url("/detail/eclipse.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: blue;
-    border: 2px solid black;
+    background-color: white;
     margin: 0.2em;
+    transition: transform 0.3s;
   }
-  .card .innercard {
-    width: 100%;
-    height: 27%;
-    background-color: rgb(61, 61, 61);
-    margin-top: 7rem;
-    font-family: "Raleway", sans-serif;
-    color: white;
-  }
-  .card .innercard p {
-    padding: 0.5em 0 0 0.4em;
-    font-size: 0.8em;
-    font-weight: bold;
+  .card:hover {
+    transform: translateY(-3px);
   }
   main {
     height: 100vh;
@@ -84,31 +132,79 @@
   }
 }
 @media (min-width: 375px) {
+  .innerbanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .innerbanner a {
+    text-decoration: none;
+    color: black;
+  }
+  .innerbanner a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .innerbanner .guy {
+    height: 2em;
+    border-radius: 50%;
+  }
+  .innerbanner .heart {
+    margin-right: 5%;
+    height: 1em;
+  }
+  .innerbanner p {
+    padding-left: 1em;
+    padding-top: 0.3em;
+    font-size: 0.7em;
+  }
+  .innerbanner .profile-box {
+    margin-left: 3%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  .innerbanner .profile-box .special {
+    color: lightgrey;
+  }
+  .innercard {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(61, 61, 61);
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin-bottom: 5%;
+  }
+  .innercard p {
+    padding: 0.5em 0 0 0.4em;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
   h2 {
     display: none;
   }
   .card {
-    width: 18em;
+    box-shadow: 3px 2px 2px 0 grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
     height: 24vh;
     background-image: url("/detail/eclipse.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: blue;
-    border: 2px solid black;
+    background-color: white;
     margin: 0.2em;
+    transition: transform 0.3s;
   }
-  .card .innercard {
-    width: 100%;
-    height: 27%;
-    background-color: rgb(61, 61, 61);
-    margin-top: 7rem;
-    font-family: "Raleway", sans-serif;
-    color: white;
-  }
-  .card .innercard p {
-    padding: 0.5em 0 0 0.4em;
-    font-size: 0.8em;
-    font-weight: bold;
+  .card:hover {
+    transform: translateY(-3px);
   }
   main {
     height: 100vh;
@@ -168,31 +264,79 @@
   }
 }
 @media (min-width: 425px) {
+  .innerbanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .innerbanner a {
+    text-decoration: none;
+    color: black;
+  }
+  .innerbanner a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .innerbanner .guy {
+    height: 2em;
+    border-radius: 50%;
+  }
+  .innerbanner .heart {
+    margin-right: 5%;
+    height: 1em;
+  }
+  .innerbanner p {
+    padding-left: 1em;
+    padding-top: 0.3em;
+    font-size: 0.7em;
+  }
+  .innerbanner .profile-box {
+    margin-left: 3%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  .innerbanner .profile-box .special {
+    color: lightgrey;
+  }
+  .innercard {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(61, 61, 61);
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin-bottom: 5%;
+  }
+  .innercard p {
+    padding: 0.5em 0 0 0.4em;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
   h2 {
     display: none;
   }
   .card {
-    width: 18em;
+    box-shadow: 3px 2px 2px 0 grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
     height: 24vh;
     background-image: url("/detail/eclipse.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: blue;
-    border: 2px solid black;
+    background-color: white;
     margin: 0.2em;
+    transition: transform 0.3s;
   }
-  .card .innercard {
-    width: 100%;
-    height: 27%;
-    background-color: rgb(61, 61, 61);
-    margin-top: 7rem;
-    font-family: "Raleway", sans-serif;
-    color: white;
-  }
-  .card .innercard p {
-    padding: 0.5em 0 0 0.4em;
-    font-size: 0.8em;
-    font-weight: bold;
+  .card:hover {
+    transform: translateY(-3px);
   }
   main {
     height: 100vh;
@@ -249,34 +393,85 @@
     height: 25px;
     border-radius: 100%;
     border: 1px solid black;
+  }
+  .card {
+    border-radius: 1em;
   }
 }
 @media (min-width: 768px) {
+  .innerbanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .innerbanner a {
+    text-decoration: none;
+    color: black;
+  }
+  .innerbanner a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .innerbanner .guy {
+    height: 2em;
+    border-radius: 50%;
+  }
+  .innerbanner .heart {
+    margin-right: 5%;
+    height: 1em;
+  }
+  .innerbanner p {
+    padding-left: 1em;
+    padding-top: 0.3em;
+    font-size: 0.7em;
+  }
+  .innerbanner .profile-box {
+    margin-left: 3%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  .innerbanner .profile-box .special {
+    color: lightgrey;
+  }
+  .innercard {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(61, 61, 61);
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin-bottom: 5%;
+  }
+  .innercard p {
+    padding: 0.5em 0 0 0.4em;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
   h2 {
     display: none;
   }
   .card {
-    width: 18em;
+    box-shadow: 3px 2px 2px 0 grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
     height: 24vh;
     background-image: url("/detail/eclipse.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: blue;
-    border: 2px solid black;
+    background-color: white;
     margin: 0.2em;
+    transition: transform 0.3s;
   }
-  .card .innercard {
-    width: 100%;
-    height: 27%;
-    background-color: rgb(61, 61, 61);
-    margin-top: 7rem;
-    font-family: "Raleway", sans-serif;
-    color: white;
-  }
-  .card .innercard p {
-    padding: 0.5em 0 0 0.4em;
-    font-size: 0.8em;
-    font-weight: bold;
+  .card:hover {
+    transform: translateY(-3px);
   }
   main {
     height: 100vh;
@@ -334,16 +529,33 @@
     border-radius: 100%;
     border: 1px solid black;
   }
+  .card {
+    width: 45vw;
+  }
 }
 @media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+  main {
+    margin-left: 12%;
+  }
+  .innerbanner {
+    background-color: rgba(236, 236, 236, 0.3);
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    width: 100%;
+    height: 20%;
+  }
   h2 {
     font-family: "Raleway", sans-serif;
     display: block;
     padding-bottom: 10px;
-    width: 70%;
+    width: 100%;
     margin: 5% 0 10% 30%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     margin-bottom: 2vh;
+    font-size: 1em;
   }
   .grid-wrapper {
     display: grid;
@@ -354,6 +566,7 @@
     margin-left: 30%;
   }
   .card {
+    border-radius: 1em;
     height: 80%;
     width: 43vh;
   }

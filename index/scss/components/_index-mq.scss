@@ -6,14 +6,23 @@
 
 @media (min-width: a.$mobile-m) {
   @include a.table-mobile;
+
 }
 
 @media (min-width: a.$mobile-l) {
   @include a.table-mobile;
+  .card {
+    border-radius: 1em;
+  }
+
 }
 
 @media (min-width: a.$tablet) {
   @include a.table-mobile;
+  
+  .card {
+    width: 45vw;
+  }
 }
 
 @media (min-width: a.$laptop) {
