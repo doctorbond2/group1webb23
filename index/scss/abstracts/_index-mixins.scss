@@ -2,7 +2,57 @@
 
 @mixin table-mobile {
 
-  
+  h2 {
+    display: none;
+  }
+
+  .card {
+    width: 18em;
+    height: 24vh;
+    background-image: url('/detail/eclipse.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+    border: 2px solid black;
+    margin: 0.2em;
+    
+    .innercard {
+      width: 100%;
+      height: 27%;
+      background-color: rgb(61, 61, 61);
+      margin-top: 7rem;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+
+      p {
+        padding: 0.5em 0 0 0.4em;
+        font-size: 0.8em;
+        font-weight: bold;
+      }
+      
+    }
+  }
+  main {
+    height: 100vh;
+  }
+
+  .grid-wrapper {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+
+  .desktop-footer {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
   .header {
     display: flex;
     justify-content: space-between;
@@ -47,6 +97,26 @@
 }
 
 @mixin table-laptop {
+  h2 {
+    display: block;
+    padding-bottom: 10px;
+    width: 70%;
+    margin: 5% 0 10% 30%;
+    border-bottom: 1px solid black;
+    margin-bottom: 2vh;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,auto);
+    height: 50rem;
+    width: 60%;
+    margin-left: 30%;
+  }
+  .card {
+    height: 80%;
+  }
   .header {
     display: none;
   }
@@ -64,6 +134,7 @@
     background-color: white;
     z-index: 10;
     border-right: 1px solid lightgrey;
+    top: 0;
 
     .profilePic {
       width: 25px;
