@@ -24,6 +24,12 @@ p, h2 {
   border-bottom: 2px solid darkgray;
   align-items: center;
 }
+.header h1 {
+  margin-left: 8%;
+}
+.header a {
+  margin-right: 5%;
+}
 
 .footer {
   display: flex;
