@@ -1,0 +1,85 @@
+@use 'index-fonts';
+
+@mixin table-mobile {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 2px solid darkgray;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    align-items: center;
+    z-index: 5;
+    a {
+      margin-right: 5%;
+    }
+    h1 {
+      margin-left: 8%;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    max-height: 5%;
+    align-items: center;
+    position:fixed;
+    bottom: 0;
+    z-index: 4;
+    border-top: 1px solid lightgrey;
+    padding: 0.5em;
+    .profilePic {
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+      border: 1px solid black;
+    }
+  }
+
+}
+
+@mixin table-laptop {
+  .header {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+
+  .sidebar {
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 12rem;
+    flex-direction: column;
+    background-color: white;
+    z-index: 10;
+
+    .profilePic {
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+      border: 1px solid black;
+    }
+    a {
+      display: flex;
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+      margin-top: 2.5rem;
+      margin-left: 15%;
+
+      p {
+        margin-left: 1rem;
+        p:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

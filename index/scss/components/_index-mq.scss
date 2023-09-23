@@ -1,0 +1,71 @@
+@use '../abstracts/' as a;
+
+@media (min-width: a.$mobile-s) {
+  @include a.table-mobile;
+}
+
+@media (min-width: a.$mobile-m) {
+  @include a.table-mobile;
+}
+
+@media (min-width: a.$mobile-l) {
+  @include a.table-mobile;
+}
+
+@media (min-width: a.$tablet) {
+  @include a.table-mobile;
+}
+
+@media (min-width: a.$laptop) {
+
+  @include a.table-laptop;
+  
+  .header {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+
+  .sidebar {
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 12rem;
+    flex-direction: column;
+    background-color: white;
+    z-index: 10;
+
+    .profilePic {
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+      border: 1px solid black;
+    }
+    a {
+      display: flex;
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+      margin-top: 2.5rem;
+      margin-left: 15%;
+
+      p {
+        margin-left: 1rem;
+        p:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+}
+
+@media (min-width: a.$laptop-l ) {
+  
+}
+
+@media (min-width: a.$laptop-xl) {
+  
+}
+
