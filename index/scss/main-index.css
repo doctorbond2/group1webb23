@@ -337,6 +337,7 @@
 }
 @media (min-width: 1024px) {
   h2 {
+    font-family: "Raleway", sans-serif;
     display: block;
     padding-bottom: 10px;
     width: 70%;
@@ -354,6 +355,7 @@
   }
   .card {
     height: 80%;
+    width: 43vh;
   }
   .header {
     display: none;
