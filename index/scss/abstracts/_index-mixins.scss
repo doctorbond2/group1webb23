@@ -1,6 +1,8 @@
 @use 'index-fonts';
 
 @mixin table-mobile {
+
+  
   .header {
     display: flex;
     justify-content: space-between;
@@ -11,6 +13,7 @@
     background-color: white;
     top: 0;
     align-items: center;
+    height: 5%;
     z-index: 5;
     a {
       margin-right: 5%;
@@ -52,6 +55,7 @@
   }
 
   .sidebar {
+    font-family: 'Raleway', sans-serif;
     position: fixed;
     display: flex;
     height: 100vh;
@@ -59,6 +63,7 @@
     flex-direction: column;
     background-color: white;
     z-index: 10;
+    border-right: 1px solid lightgrey;
 
     .profilePic {
       width: 25px;
@@ -70,16 +75,72 @@
       display: flex;
       text-decoration: none;
       color: black;
-      font-size: 1.5rem;
+      font-size: 1.1em;
       margin-top: 2.5rem;
       margin-left: 15%;
 
+      &:visited {
+        text-decoration: none;
+        color: black;
+      }
+
       p {
         margin-left: 1rem;
+        font-size: 0.8em;
         p:hover {
           text-decoration: underline;
         }
       }
     }
   }
+
+  .desktop-footer {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 74px;
+    border-top: 1px solid lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    color: grey;
+    z-index: 0;
+
+    nav {
+      width: inherit;
+      display: inherit;
+      justify-content: right;
+      
+      ul {
+        width: inherit;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+      }
+      li {
+        list-style: none;
+      }
+     #special-child {
+      padding-left: 10%;
+     }
+     #rest-of-class {
+      display: flex;
+      justify-content: space-around;
+      width: 25%;
+      gap: 20%;
+     }
+     a {
+      text-decoration: none;
+      color: darkgray;
+
+      &:visited {
+        text-decoration: none;
+        color: darkgray;
+      }
+     }
+    }
+  }
+
 }
