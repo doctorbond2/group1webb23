@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap");
 @media (min-width: 320px) {
   .header {
     display: flex;
@@ -9,6 +10,7 @@
     background-color: white;
     top: 0;
     align-items: center;
+    height: 5%;
     z-index: 5;
   }
   .header a {
@@ -49,6 +51,7 @@
     background-color: white;
     top: 0;
     align-items: center;
+    height: 5%;
     z-index: 5;
   }
   .header a {
@@ -89,6 +92,7 @@
     background-color: white;
     top: 0;
     align-items: center;
+    height: 5%;
     z-index: 5;
   }
   .header a {
@@ -129,6 +133,7 @@
     background-color: white;
     top: 0;
     align-items: center;
+    height: 5%;
     z-index: 5;
   }
   .header a {
@@ -166,6 +171,7 @@
     display: none;
   }
   .sidebar {
+    font-family: "Raleway", sans-serif;
     position: fixed;
     display: flex;
     height: 100vh;
@@ -173,6 +179,7 @@
     flex-direction: column;
     background-color: white;
     z-index: 10;
+    border-right: 1px solid lightgrey;
   }
   .sidebar .profilePic {
     width: 25px;
@@ -184,15 +191,65 @@
     display: flex;
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.1em;
     margin-top: 2.5rem;
     margin-left: 15%;
   }
+  .sidebar a:visited {
+    text-decoration: none;
+    color: black;
+  }
   .sidebar a p {
     margin-left: 1rem;
+    font-size: 0.8em;
   }
   .sidebar a p p:hover {
     text-decoration: underline;
+  }
+  .desktop-footer {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 74px;
+    border-top: 1px solid lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    color: grey;
+    z-index: 0;
+  }
+  .desktop-footer nav {
+    width: inherit;
+    display: inherit;
+    justify-content: right;
+  }
+  .desktop-footer nav ul {
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  .desktop-footer nav li {
+    list-style: none;
+  }
+  .desktop-footer nav #special-child {
+    padding-left: 10%;
+  }
+  .desktop-footer nav #rest-of-class {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    gap: 20%;
+  }
+  .desktop-footer nav a {
+    text-decoration: none;
+    color: darkgray;
+  }
+  .desktop-footer nav a:visited {
+    text-decoration: none;
+    color: darkgray;
   }
   .header {
     display: none;
@@ -229,4 +286,9 @@
   .sidebar a p p:hover {
     text-decoration: underline;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main-index.css.map */
