@@ -29,6 +29,16 @@ h2 {
 .footer {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  max-height: 5%;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 4;
+  border-top: 1px solid lightgrey;
+  padding: 0.5em;
 }
 .footer .profilePic {
   width: 25px;
