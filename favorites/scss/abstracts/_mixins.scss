@@ -81,6 +81,14 @@
   }
 }
 @mixin table-mobile {
+
+  a {
+    text-decoration: none;
+    color: darkgrey;
+    &:visited {
+      text-decoration: none;
+    }
+  }
   .desktop-footer {
     display: none;
   }
@@ -106,10 +114,12 @@
     }
   }
 
+
   .link {
 
     a {
       text-decoration: none;
+      color: black;
       
       transform: scale(1);
       transition: 0.3s;
@@ -117,7 +127,9 @@
 
       &:visited {
         color: black;
+        text-decoration:none;
       }
+      
 
       &:hover {
 

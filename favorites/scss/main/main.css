@@ -10,6 +10,14 @@
   display: none;
 }
 
+a {
+  text-decoration: none;
+  color: darkgrey;
+}
+a:visited {
+  text-decoration: none;
+}
+
 .desktop-footer {
   display: none;
 }
@@ -37,12 +45,14 @@
 
 .link a {
   text-decoration: none;
+  color: black;
   transform: scale(1);
   transition: 0.3s;
   display: inline-block;
 }
 .link a:visited {
   color: black;
+  text-decoration: none;
 }
 .link a:hover {
   transform: scale(1.1);
@@ -297,6 +307,13 @@ h2 {
 }
 
 @media (min-width: 320px) {
+  a {
+    text-decoration: none;
+    color: darkgrey;
+  }
+  a:visited {
+    text-decoration: none;
+  }
   .desktop-footer {
     display: none;
   }
@@ -322,12 +339,14 @@ h2 {
   }
   .link a {
     text-decoration: none;
+    color: black;
     transform: scale(1);
     transition: 0.3s;
     display: inline-block;
   }
   .link a:visited {
     color: black;
+    text-decoration: none;
   }
   .link a:hover {
     transform: scale(1.1);
@@ -371,6 +390,13 @@ h2 {
   }
 }
 @media (min-width: 375px) {
+  a {
+    text-decoration: none;
+    color: darkgrey;
+  }
+  a:visited {
+    text-decoration: none;
+  }
   .desktop-footer {
     display: none;
   }
@@ -396,12 +422,14 @@ h2 {
   }
   .link a {
     text-decoration: none;
+    color: black;
     transform: scale(1);
     transition: 0.3s;
     display: inline-block;
   }
   .link a:visited {
     color: black;
+    text-decoration: none;
   }
   .link a:hover {
     transform: scale(1.1);
@@ -445,6 +473,13 @@ h2 {
   }
 }
 @media (min-width: 425px) {
+  a {
+    text-decoration: none;
+    color: darkgrey;
+  }
+  a:visited {
+    text-decoration: none;
+  }
   .desktop-footer {
     display: none;
   }
@@ -470,12 +505,14 @@ h2 {
   }
   .link a {
     text-decoration: none;
+    color: black;
     transform: scale(1);
     transition: 0.3s;
     display: inline-block;
   }
   .link a:visited {
     color: black;
+    text-decoration: none;
   }
   .link a:hover {
     transform: scale(1.1);
@@ -519,6 +556,13 @@ h2 {
   }
 }
 @media (min-width: 768px) {
+  a {
+    text-decoration: none;
+    color: darkgrey;
+  }
+  a:visited {
+    text-decoration: none;
+  }
   .desktop-footer {
     display: none;
   }
@@ -544,12 +588,14 @@ h2 {
   }
   .link a {
     text-decoration: none;
+    color: black;
     transform: scale(1);
     transition: 0.3s;
     display: inline-block;
   }
   .link a:visited {
     color: black;
+    text-decoration: none;
   }
   .link a:hover {
     transform: scale(1.1);
