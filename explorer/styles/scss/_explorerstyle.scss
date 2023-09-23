@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.desktop-footer {
+  display: none;
+}
+@mixin textbox {
+  height: 30px;
+  width: 300px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  background: whitesmoke;
+}
+label {
+  font-family: "Open Sans";
+}
+p,
+h2 {
+  font-family: "Raleway";
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 2px solid darkgray;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  .profilePic {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid black;
+  }
+}
+.myX {
+  display: none;
+}
+.sidebar {
+  display: none;
+}
+
+@media screen and (min-width: 770px) {
+  footer {
+    display: flex;
+    position: relative;
+  }
+  main {
+    margin-left: 189px;
+    margin-bottom: 74px;
+  }
+  a {
+    text-decoration: none;
+    color: darkgrey;
+  }
+  .footer {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .desktop-footer {
+    display: block;
+  }
+  .desktop-footer {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 74px;
+    border-top: 1px solid lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    color: grey;
+    z-index: 0;
+
+    nav {
+      width: inherit;
+      display: inherit;
+      justify-content: right;
+
+      ul {
+        width: inherit;
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+      }
+      li {
+        list-style: none;
+      }
+      #special-child {
+        padding-left: 10%;
+      }
+      #rest-of-class {
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+        gap: 20%;
+      }
+    }
+  }
+  .sidebar {
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 190px;
+    flex-direction: column;
+    border-right: 1px solid lightgray;
+    z-index: 200000;
+    background-color: white;
+    .profilePic {
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+      border: 1px solid black;
+    }
+    a {
+      display: flex;
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+      margin-top: 2.5rem;
+      margin-left: 1rem;
+
+      p {
+        margin-left: 1rem;
+      }
+    }
+  }
+}

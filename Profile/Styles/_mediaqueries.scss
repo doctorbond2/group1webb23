@@ -48,6 +48,10 @@
   }
 }
 @media screen and (min-width: 770px) {
+  a {
+    text-decoration: none;
+    color: darkgrey;
+  }
   .header {
     display: none;
   }

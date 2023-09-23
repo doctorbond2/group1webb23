@@ -147,6 +147,10 @@ body form #submit:hover, body form #submit:focus, body form #submit:active {
   }
 }
 @media screen and (min-width: 770px) {
+  a {
+    text-decoration: none;
+    color: darkgrey;
+  }
   .header {
     display: none;
   }
