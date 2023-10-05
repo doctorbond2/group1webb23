@@ -9,6 +9,7 @@ main {
 
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-auto-rows: 240px;
+    //detta definierar höjden mellan rader. Coolt David! :)
   }
 }
 @media screen and (min-width: 600px) {

@@ -117,7 +117,6 @@ h2 {
   .desktop-footer nav #rest-of-class {
     display: flex;
     justify-content: space-around;
-    width: 25%;
     gap: 20%;
   }
   .sidebar {
